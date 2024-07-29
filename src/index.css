@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.active{
+  @apply bg-mainColor rounded-md duration-500
+}
+
+.center-div{
+  @apply flex justify-center items-center
+}
